@@ -1,0 +1,1 @@
+Creating the google home page is my first project for the odin project. Started 31/05/21
