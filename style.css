@@ -1,5 +1,57 @@
+body { 
+    margin: 0;
+    padding: 0;
+}
+
 button {
     height: 30px;
     width: 30px;
     background: url(googlemic_clr_24px.svg) no-repeat;
+}
+
+.header-container {
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.google-apps {
+    height: 20px;
+    width: 20px;
+}
+
+.main-container {
+    width: 100vw;
+    min-height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar-container {
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    width: 582px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+#search-logo {
+    color: gray;
+    
+}
+
+#search-bar {
+    border: none;
+    width: 80%;
+}
+
+#voice-search-button {
+    border: none;
+
 }
